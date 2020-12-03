@@ -1,0 +1,30 @@
+.button {
+    position: absolute;
+    left: 60%;
+    background-color: rgb(212, 184, 59);
+}
+
+.fail {
+    position: relative;
+    width: 200px;
+    background-color: rgba($color: #eb4242, $alpha: 1.0);
+}
+.success {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: green;
+}
+#content, title {
+    position: relative;
+    bottom: 15px;
+}
+
+#closes {
+    position: relative;
+    text-align: center;
+    left: 75%;
+    width: 35px;
+    background-color:fuchsia ;
+}

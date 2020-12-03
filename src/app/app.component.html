@@ -1,0 +1,35 @@
+<div id='t'>
+  <div id="input" >
+    <input placeholder="Title" [(ngModel)] = 'ttitle'>
+    <input  placeholder="Content" [(ngModel)] ='content' >
+  </div>
+  <div id = 'SuccessFail'>
+    <mat-radio-button id="i-fail" #fail> IsFailed </mat-radio-button>
+    <mat-radio-button id="i-success" #success> IsSuccess </mat-radio-button>
+  </div>
+
+  <div id='position'>
+    <mat-radio-group id='pos' aria-label="Vertical position">Vertical position
+      <mat-radio-button #topV value="Top">Top</mat-radio-button>
+      <mat-radio-button #cenV value="Center">Center</mat-radio-button>
+      <mat-radio-button #botV value="Bottom">Bottom</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-radio-group  id='pos' aria-label="Horizontal position">Horizontal position
+      <mat-radio-button #startH value="Start">Start</mat-radio-button>  
+      <mat-radio-button #cenH value="Center">Center</mat-radio-button>
+      <mat-radio-button #endH value="End">End</mat-radio-button>
+    </mat-radio-group>
+  </div>
+  <div id = 'slide-toggle'>
+    <mat-slide-toggle #showtitle>ShowTitle</mat-slide-toggle>
+    <mat-slide-toggle  #hasClose>HasCloseButton</mat-slide-toggle>
+    <mat-slide-toggle #showDuration>ShowDuration</mat-slide-toggle>
+  </div>
+  <mat-slider tickInterval="1" min="1" max="7" [(ngModel)] = 'durationn'> Duration</mat-slider>
+  <div id="toast_btn" style="padding-top: 25px">
+    <button ejs-button class="e-btn e-control" id='show_Toast' style="margin-right:15px"
+        (click)="showToaster()">Show Toasts</button>
+  </div>
+
+</div>

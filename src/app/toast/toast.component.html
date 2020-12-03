@@ -1,0 +1,10 @@
+<p>toast works!</p>
+
+<mat-card @toast [class]= "color ? 'fail' : 'success' ">
+    <div *ngIf='hasCloseButton'>
+        <button id="closes" mat-button (click)='close()'>X</button>
+    </div>
+    <h3 *ngIf='showTitle'>{{ttitle}} </h3>
+    <h5>{{content}} </h5>
+    <p>sdfgh</p>
+</mat-card>

@@ -1,0 +1,43 @@
+#input{
+    margin: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+#i-fail{
+    color:red
+}
+#i-success{
+    color:green;
+}
+
+#position{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#pos{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.mat-radio-button{
+    margin:7px;
+}
+
+#slide-toggle{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.t{
+    display: inline;
+    background-color: greenyellow;
+}
+
+.show_Toast{
+    color: sandybrown;
+}
