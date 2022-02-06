@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    color: black; font-family:'Montserrat', sans-serif; font-weight:700; font-size:3.5vw;
+}
+
+.right button {
+    width: 80%;
+    background-color: #e0ce04;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.left p{
+    color: black; font-family:'Montserrat'; font-weight:400; font-size:2vw;
+}
+.send-order{
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: #db0001 solid 5px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.telegram{
+    background: url('../img/telegram.png') no-repeat;
+    width: 120px;
+    height: 120px;
+    background-size: 100% 100%;
+    margin-right: 5%;
+}
+
+.whatsapp{
+    background: url('../img/whatsapp.png') no-repeat;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    margin-right: 5%;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.right p{
+    color: black; font-family:'Montserrat'; font-weight:400; font-size:1.5vw; margin-bottom: 50%; 
+}
+
+
+.order1{
+    background: url('../img/order1.png') top center no-repeat;
+    min-width: 30%;
+    min-height: 20%;
+    border: #f2cc38 solid 7px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    padding-top: 30%;
+}
+.order2{
+    background: url('../img/order2.png') top center no-repeat;
+    min-width: 30%;
+    min-height: 20%;
+    border: #f2cc38 solid 7px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    padding-top: 30%;
+}
+.order3{
+    background: url('../img/order3.png') top center no-repeat;
+    min-width: 30%;
+    min-height: 20%;
+    border: #f2cc38 solid 7px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    padding-top: 30%;
+}

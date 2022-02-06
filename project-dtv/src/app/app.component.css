@@ -1,0 +1,292 @@
+/**font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;**/
+body{
+    padding: 0px;    
+} 
+
+.container-1{
+
+    width: 100%;
+    background: #d11d1d url('img/creative-group-working-startup-using-laptops.png') top right/75% no-repeat ;
+    padding-top: 4%;
+    background-size: 75% 100%;
+
+}
+
+.container-1 p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    height: 20%;
+}
+
+.obogrev-img{
+    background: url('img/obogrev.png') no-repeat;
+    background-position-y: 5%;
+    background-position-x: 15%;
+    height: 600px;
+}
+
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow:row nowrap;
+    margin-right: 13%;
+    margin-top: 100px;
+}
+
+.first-margin-r{
+    padding-left:13%;
+}
+
+.second-container div{
+    width: 25%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-1{
+    background: #e0ce04 url('img/temperatures.png') no-repeat;
+    background-size: 20% 25%;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+.block-2{
+    background: #60bb43 url('img/thermometer.png') no-repeat;
+    background-size: 20% 25%;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+.block-3{
+    background: #d11d1d url('img/controls.png') no-repeat;
+    background-size: 20% 25%;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+
+.second-container div p{
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    color: #000000;
+    font-size: 1vw;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    padding-top: 27%;
+}
+
+.container-2{
+    background:url('img/cont-2.jpg') top center no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+
+}
+
+.rectangle{
+    background-color: rgb(255, 255, 255, 24%)  ;
+    height: auto; 
+    width: 100%;
+    padding-top: 3%;
+    display: inline-block;
+}
+
+.center{
+    display: flex; 
+    justify-content: center;
+}
+
+.obogrev-img2{
+    background: url('img/obogrev.png') right no-repeat;
+    min-height: 500px;
+}
+
+.advantages{
+    background: url('img/advantages.png') center center no-repeat;
+    height: 700px;
+    max-width: 100%;    
+}
+
+.advantages p{
+    color: #000000;
+    font-family:'Montserrat', sans-serif; 
+    font-weight:normal; 
+    font-size:0.8vw;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.adv-row{
+    display: flex;
+    flex-direction:row;
+    max-width: 100%;
+    padding-top: 150px;
+    
+}
+
+.adv-1{
+    background: url('img/748967.png') no-repeat;
+    max-width: 100%;
+    min-height: 25%;
+}
+.adv-2{
+    background: url('img/sound.png') no-repeat;
+    max-width: 100%;
+    min-height: 25%;
+}
+.adv-3{
+    background: url('img/shield.png') no-repeat;
+    max-width: 100%;
+    min-height: 25%;
+}
+.adv-4{
+    background: url('img/obduv.png') no-repeat;
+    max-width: 100%;
+    min-height: 25%;
+}
+.adv-5{
+    background: url('img/controls1.png') no-repeat;
+    max-width: 100%;
+    min-height: 25%;
+}
+
+.characteristic{
+    padding-top: 50px;
+    background: url('img/characteristic.png') center left/35% no-repeat ;
+    min-height: 500px;
+    background-position-x: 28%;
+}
+
+.characteristic p{
+    padding-left: 52% ;
+}
+
+.deliver{
+    margin-left: 13%;
+    background: #e0ce04 url('img/deliver.png') left no-repeat;
+    background-position-x: 12%;
+    background-position-y: 60%;
+    background-size:22%;
+    height: 8vw;
+    width: 20%;
+}
+.cash{
+    background: #7bb63d url('img/cash.png') left no-repeat;
+    background-position-x: 12%;
+    background-position-y: 60%;
+    background-size:22%;
+    height: 8vw;
+    width: 20%;
+}
+.check{
+    background: #d11d1d url('img/shield2.png') left no-repeat;
+    background-position-x: 12%;
+    background-position-y: 60%;
+    background-size:22%;
+    height: 8vw;
+    width: 20%;
+}
+
+.deliver-cash p{
+    color: #000000; font-family:'Montserrat';font-weight: bold; font-size: 0.8vw; line-height: 1.2vw; padding:12% 10% 15% 35%;
+}
+
+.otzyv1{
+    border-radius: 50%;
+    background: url('img/otzyv1.png') no-repeat;
+    width: 180px;
+    max-height: 180px;
+    border-color: #60bb43;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.otzyv2{
+    border-radius: 50%;
+    background: url('img/otzyv2.png') no-repeat;
+    background-position: 30% 20%;
+    width: 180px;
+    height: 180px;
+    border-color: #60bb43;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.otzyv3{
+    border-radius: 50%;
+    background: url('img/otzyv3.png') no-repeat;
+    background-position: 30% 20%;
+    width: 180px;
+    max-height: 180px;
+    border-color: #60bb43;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.office-img{
+    height: 100%;
+    background: url('img/office-Barbarian.png') no-repeat;
+    background-size: 100% 100%;
+    padding-block: 30px;
+}
+
+.form {
+    height: 50%;
+    background: rgb(255, 255, 255, 40%) ;
+    margin-left: 50%;
+    margin-right: 20%;
+    padding: 1% 2%;
+    background-size: 60% 15%;
+}
+
+.form-rectangle {
+    background:url('img/img-5.png') top center no-repeat;
+    background-size: 80% 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(224, 206, 4, 53%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+button {
+    width: 80%;
+    background-color: #e0ce04;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #e0ce04;
+}
+
+#fname #lname{
+    font-family: 'Montserrat', medium;
+    font-size: 1.5vw;
+    color:#000000
+} 
+
+  .root p{
+    margin: 10px;
+    color: white; font-family:'Montserrat'; font-weight:lighter; font-size:0.8vw;
+  }
